@@ -38,7 +38,6 @@ public:
         return ans;
     }
 };
-
 int main(){
     Solution sol;
     vector<int> arr={1,2, 3, 1,4, 5, 2,3,6};
