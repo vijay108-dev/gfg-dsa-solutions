@@ -1,6 +1,6 @@
 /*
     Problem: Stock Buy and Sell – Max One Transaction Allowed
-    Platform: GeeksforGeeks (GFG) / LeetCode
+    Platform: GeeksforGeeks (GFG)
     Approach: Single Pass (One Traversal)
 
     Idea:
