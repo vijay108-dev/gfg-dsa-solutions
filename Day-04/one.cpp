@@ -1,19 +1,18 @@
 /*
-    Problem: Second Largest Element in an Array
-    Platform: GeeksforGeeks (GFG)
+    Problem: Stock Buy and Sell – Max One Transaction Allowed
+    Platform: GeeksforGeeks (GFG) / LeetCode
     Approach: Single Pass (One Traversal)
 
     Idea:
-    - Traverse the array once
-    - Keep track of the largest and second largest elements
-    - Update values as larger elements are found
-    - Return the second largest element
-    - If no valid second largest element exists, return -1
+    - Traverse the price array once
+    - Keep track of the minimum buying price so far
+    - On each day, calculate the profit if the stock is sold
+    - Update the maximum profit whenever a better profit is found
+    - If no profitable transaction is possible, return 0
 
     Time Complexity: O(n)
     Space Complexity: O(1)
 */
-
 #include <iostream>
 #include <vector>
 using namespace std;
