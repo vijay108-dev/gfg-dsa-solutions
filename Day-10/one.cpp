@@ -14,6 +14,11 @@ int maxDiff(vector<int> &arr){
 	}
 	return ans;
 }
+int main(){
+	vector<int> arr = {2, 3, 10, 6, 4, 8, 1};
+	cout << maxDiff(arr) <<endl;
+	return 0;
+}
 
 //TC = O(n^2)
 
